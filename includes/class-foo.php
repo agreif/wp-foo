@@ -171,6 +171,7 @@ class Foo {
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
 
 		$this->loader->add_filter( 'woocommerce_cart_needs_payment', $plugin_public, 'filter_needs_payment' );
+		$this->loader->add_filter( 'woocommerce_order_needs_payment', $plugin_public, 'filter_needs_payment' );
 	}
 
 	/**
