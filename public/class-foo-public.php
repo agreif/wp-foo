@@ -101,6 +101,7 @@ class Foo_Public {
 	}
 
 	public function filter_needs_payment($val) {
+	       echo "<h1>filter_needs_payment</h1>";
 	       return false;
 	}
 
