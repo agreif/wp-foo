@@ -16,7 +16,7 @@
  * Plugin Name:       Foo
  * Plugin URI:        https://foo.com
  * Description:       The Foo Plugin
- * Version:           1.0.3
+ * Version:           1.0.4
  * Author:            FooBar
  * Author URI:        https://foobar.com/
  * License:           GPL-2.0+
