@@ -100,4 +100,9 @@ class Foo_Public {
 
 	}
 
+	public function echo_all_actions () {
+	       echo '<p>' . current_action() . '</p>';
+	}
+
+
 }
